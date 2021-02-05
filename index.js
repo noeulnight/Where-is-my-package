@@ -2,7 +2,7 @@ const client = require('discord-rich-presence')('807061207718690837')
 const superagent = require('superagent')
 
 update()
-setInterval(() => update, 60000)
+setInterval(() => update(), 60000)
 
 async function update () {
   const res = await superagent.get('https://apis.tracker.delivery/carriers/kr.hanjin/tracks/418694701305')
