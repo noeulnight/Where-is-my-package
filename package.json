@@ -1,0 +1,12 @@
+{
+  "name": "Where-is-my-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/noeulnight/Where-is-my-package",
+  "author": "noeulnight <noeulnight.mail@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rich-presence": "^0.0.8",
+    "superagent": "^6.1.0"
+  }
+}
